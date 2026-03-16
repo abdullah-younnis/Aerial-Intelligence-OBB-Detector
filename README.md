@@ -22,7 +22,7 @@ A production-ready pipeline for detecting small, rotated objects in high-resolut
 
 ```bash
 # Clone and install
-git clone <repo-url>
+git clone <https://github.com/abdullah-younnis/Aerial-Intelligence-OBB-Detector.git>
 cd aerial-detection
 pip install -e ".[dev]"
 
