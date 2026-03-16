@@ -2,7 +2,7 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+\venv
 # C extensions
 *.so
 
@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ===========================
+# Project-specific
+# ===========================
+
+# Training outputs (checkpoints, logs)
+outputs/
+
+# Dataset files (large, downloaded separately)
+data/
+aerial_detection/data/dota/
+
+# Debug / scratch scripts
+debug_*.py
+
+# Kiro IDE
+.kiro/
+
+# Hypothesis property-based testing cache
+.hypothesis/
